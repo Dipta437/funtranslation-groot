@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+/* navigation section */
+.nav-bar{
+    max-width: 100%;
+    background-color: lightgreen;
+    padding: 0.5rem;
+    border: 1px solid green;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.nav-intro{
+    padding: 1rem 0rem;
+    text-align: center;
+}
+/* input section */
+.input-textarea{
+    width: 80%;
+    margin-left: 8rem;
+    max-height: fit-content;
+    text-align: center;
+    font-size: large;
+}
+
+
+/* button section */
+.translate-btn{
+    font-size: large;
+    padding: 1rem 2.5rem;
+    margin: 1.5rem 0rem;
+    border: 1px solid green;
+    border-radius: 0.5rem;
+}
+.button-trans{
+    text-align: center;
+}
+
+/* output section */
+.output-textarea{
+    width: 80%;
+    margin-left: 8rem;
+    max-height: fit-content;
+
+}
+.output-intro{
+    text-align: center;
+}
+
