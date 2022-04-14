@@ -3,39 +3,46 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* navigation section */
 .nav-bar{
     max-width: 100%;
     background-color: lightgreen;
-    padding: 0.5rem;
-    border: 1px solid green;
+    padding: 1rem 0.5rem;
+    border: 2px solid green;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    
 }
 .nav-intro{
-    padding: 1rem 0rem;
+    padding: 1rem 0.5rem;
     text-align: center;
 }
 /* input section */
 .input-textarea{
-    width: 80%;
-    margin-left: 8rem;
-    max-height: fit-content;
+    display: block;
+    padding: 2rem 0.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 80%;
+    min-height: 20vh;
     text-align: center;
     font-size: large;
+    margin: auto;
 }
+
 
 
 /* button section */
 .translate-btn{
     font-size: large;
-    padding: 1rem 2.5rem;
-    margin: 1.5rem 0rem;
-    border: 1px solid green;
+    padding: 0.5rem 2.5rem;
+    margin: 0.5rem 0.5rem;
+    border: 2px solid green;
     border-radius: 0.5rem;
 }
 .button-trans{
@@ -44,12 +51,30 @@ body {
 
 /* output section */
 .output-textarea{
-    width: 80%;
-    margin-left: 8rem;
-    max-height: fit-content;
+    display: block;
+    width: 100%;
+    max-width: 80%;
+    padding: 1rem 0.5rem;
+    min-height: 20vh;
+    margin: auto;
 
 }
 .output-intro{
+    text-align: center;
+}
+
+/* footer section */
+.footer-bar{
+    max-width: 100%;
+    background-color: lightgreen;
+    padding: 1rem 0.5rem;
+    border: 1px solid green;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-top: 2rem;
+}
+.footer-intro{
+    padding: 0.5rem 1rem;
     text-align: center;
 }
 
