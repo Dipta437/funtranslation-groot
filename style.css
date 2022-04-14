@@ -3,9 +3,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    display: block;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    
 }
 /* navigation section */
 .nav-bar{
@@ -69,7 +70,7 @@ body {
 .footer-bar{
     max-width: 100%;
     background-color: lightgreen;
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     border: 1px solid green;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
