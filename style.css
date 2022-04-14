@@ -3,7 +3,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
+    display: block;
+    margin: 0;
     box-sizing: border-box;
 }
 /* navigation section */
@@ -23,6 +24,7 @@ body {
 }
 /* input section */
 .input-textarea{
+    border: 2px solid green;
     display: block;
     padding: 2rem 0.5rem;
     margin: 1.5rem;
@@ -50,6 +52,7 @@ body {
 
 /* output section */
 .output-textarea{
+    border: 2px solid green;
     display: block;
     width: 100%;
     max-width: 80%;
